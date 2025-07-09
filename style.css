@@ -3,18 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f6f8fa;
-  color: #2c3e50;
-  line-height: 1.7;
+    background-color: #f6f8fa;
+    color: #2c3e50;
+    line-height: 1.7;
 }
+
 header {
-   background-color: #6a11cb;
-  background-image: linear-gradient(315deg, #6a11cb 0%, #e3911e 74%);
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-  border-bottom: 5px solid #dcfc25;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    background-color: #6a11cb;
+    background-image: linear-gradient(315deg, #6a11cb 0%, #e3911e 74%);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #ebeb39;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+}
+
+p,
+ul {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #0958ec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
 }
